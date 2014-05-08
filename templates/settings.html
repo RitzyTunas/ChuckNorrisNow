@@ -1,0 +1,10 @@
+<div id="settings"  ng-controller="SettingsCtrl">
+	<h2>Settings</h2>
+	<form>
+	  <p><label>First Name :</label><input type="text" ng-model="user.first" placeholder="First Name" /></p>
+	  <p><label>Last Name :</label><input type="text" ng-model="user.last" placeholder="Last Name" /></p>
+	  <p><label>Gender :</label><input class="radio" type="radio" ng-model="user.gender" value="male" checked /><span class="gender">Male</span><input class="radio" type="radio" ng-model="user.gender" value="female" /><span class="gender">Female</span></p>
+	  <p><label>Theme :</label><span class="color bloodOrange" ng-click="theme={'background-color': '#D53916'}">C</span><span class="color mustard" ng-click="theme={'background-color': '#D5A516'}">H</span><span class="color moss" ng-click="theme={'background-color': '#147751'}">U</span><span class="color deepSea" ng-click="theme={'background-color': '#052F3A'}">C</span><span class="color spaceBlack" ng-click="theme={'background-color': '#272626'}">K</span></p>
+	  <p><input class="save" type="submit" value="Save"  ng-click="save()"/><input class="default" type="button" ng-click="restoreDefault()" value="Use Default" /></p>
+	</form>
+</div>

@@ -1,0 +1,164 @@
+body {
+  background-color: #D53916;
+  /* blue: 052F3A, red: D53916, black: 272626, green: 147751, yellow: D5A516 */
+  color: #FBFBEF;	
+}
+
+#datetime {
+  margin-top: 10em;
+  text-align: center;
+}
+
+#datetime h1 {
+  font-family: 'Oswald', san serif;
+  font-weight: 400;
+  font-size: 8em;
+  opacity: 0.9;
+}
+
+#datetime h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 300;
+  font-size: 2em;
+  opacity: 0.9;
+}
+
+#joke {
+  margin-top: 1em;
+  font-family: 'Oswald', san serif;
+  font-weight: 300;
+  font-size: 3em;
+  text-align: center; 
+  opacity: 0.9; 
+}
+
+#navBar {
+  font-family: 'Oswald', san serif;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0.5em;
+  right: 1.5em;
+}
+
+#navBar a {
+  font-size: 1.5em;
+  color: #FBFBEF;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+#navBar a:hover {
+  opacity: 0.9;
+}
+
+#settings {
+  font-family: 'Oswald', san serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top:0; left:0; bottom:0; right:0;
+}
+
+#settings h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#settings input{
+  width: 15em;
+  padding: 0.2em;
+  color: #A4A4A4;
+  opacity: 0.9;
+}
+
+#settings label{
+  font-size: 1em;
+  font-weight: 300;
+  width: 6em;
+}
+
+#settings .save, #settings .default{
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: transparent;
+  text-align: center;
+  font-size: 1em;
+  color: #FBFBEF;
+  border: 0.2em solid #FBFBEF;
+  opacity: 0.5;
+}
+
+#settings .save{
+  width: 5em;
+}
+
+#settings .default{
+  width: 8em;
+}
+
+#settings .save:hover, #settings .default:hover{
+  opacity: 0.9;
+}
+
+#settings .radio{
+  width: 1.5em;
+  display: inline-block;
+}
+
+#settings span.gender{
+  width: 3em;
+  padding: 1em;
+}
+
+.color {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.color:hover {
+  color: #FBFBEF;
+} 
+
+.bloodOrange{
+  /*color: #D53916;*/
+  color: #FBFBEF;
+}
+
+.mustard{
+  color: #D5A516; 
+}
+
+.moss{
+  color: #147751; 
+}
+
+.deepSea{
+  color: #052F3A; 
+}
+
+.spaceBlack{
+  color: #272626; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

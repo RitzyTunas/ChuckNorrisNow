@@ -1,0 +1,13 @@
+<!-- wrap divs in a ng-controller div -->
+<div ng-controller="MainCtrl">
+  
+  <div id="datetime">  
+    <h1>{{ date.raw | date:'hh mm ss' }}</h1>
+    <h2>{{ date.raw | date:'EEEE, MMM d' }}</h2>
+  </div>
+
+  <div id="chuckNorris">
+    <div id="joke">{{ jokes }}</div>
+  </div>
+
+</div>
